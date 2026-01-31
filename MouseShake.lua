@@ -4,7 +4,7 @@
 -- Copyright (c) 2019-2026 Dana Basken
 --
 
-print("MouseShake 8.3.0.1");
+print("MouseShake 12.0.0.1");
 
 local lastX, lastY = GetCursorPosition();
 
