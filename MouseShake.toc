@@ -1,0 +1,11 @@
+## Interface: 120000
+## Title: MouseShake
+## Notes: Shake your mouse, baby.
+## Author: Dana Basken
+## Version: 12.0.0.0
+## SavedVariables: 
+## SavedVariablesPerCharacter: MouseShake_PlayerConfig
+
+MouseShakeCommon.lua
+MouseShakeFinder.lua
+MouseShake.lua
