@@ -1,8 +1,8 @@
-## Interface: 120000
+## Interface: 120001, 120000
 ## Title: MouseShake
 ## Notes: Shake your mouse, baby.
 ## Author: Dana Basken
-## Version: 12.0.0.1
+## Version: 12.0.1.0
 ## SavedVariables: 
 ## SavedVariablesPerCharacter: MouseShake_PlayerConfig
 

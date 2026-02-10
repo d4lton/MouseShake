@@ -9,7 +9,7 @@ local Finder_cursorOffset = "CENTER";
 local Finder_size = 0;
 local Finder_minSize = 1.0;
 local Finder_maxSize = 64.0;
-local Finder_sizePerSecond = 0.1;
+local Finder_sizePerSecond = 0.02;
 
 local Finder_frame = CreateFrame("FRAME");
 Finder_frame:SetFrameStrata("HIGH");
