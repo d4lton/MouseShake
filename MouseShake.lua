@@ -4,7 +4,12 @@
 -- Copyright (c) 2019-2026 Dana Basken
 --
 
-print("MouseShake 12.0.5.0");
+local ADDON_NAME = "MouseShake"
+local ADDON_VERSION = (C_AddOns and C_AddOns.GetAddOnMetadata
+    and C_AddOns.GetAddOnMetadata(ADDON_NAME, "Version"))
+    or (GetAddOnMetadata and GetAddOnMetadata(ADDON_NAME, "Version"))
+    or "?"
+print("|cff00ccff[" .. ADDON_NAME .. "]|r " .. ADDON_VERSION .. " loaded.")
 
 local lastX, lastY = GetCursorPosition();
 
